@@ -776,7 +776,11 @@ Media Queries Styling
 =================================*/
 @media only screen and (max-width: 1200px) {
   .working-area {
-    width: 100%; }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
   #topbar {
     display: none; }
   #header {
@@ -793,6 +797,8 @@ Media Queries Styling
     #header #heart {
       display: none; }
     #header #compare {
+      display: none; }
+    #header .price {
       display: none; }
   #navbar {
     display: none; } }
@@ -811,6 +817,22 @@ Media Queries Styling
   #header a .shoping-bag {
     width: 20px;
     height: 20px; } }
+
+@media only screen and (max-width: 415px) {
+  footer .main-background .icons-margin a img {
+    margin: 0px 8px; }
+  footer .main-background .call-us-number {
+    font-size: 19px; }
+  footer .news-letter-bg-color .news-letter {
+    font-size: 22px; }
+  .btn-send {
+    font-size: 12px; }
+  footer .news-letter-bg-color .coupen-text {
+    font-size: 16px; }
+  #main {
+    padding: 8px; }
+  #header #search-icon {
+    margin-right: 10px; } }
 
 /*==================== Media Query For Land Scape Mode =====================*/
 .icon-size {

@@ -8,6 +8,10 @@ Media Queries Styling
 @media only screen and (max-width: 1200px) {
     .working-area{
         width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
     #topbar{
         display: none;
@@ -30,6 +34,9 @@ Media Queries Styling
             display: none;
         }
         #compare{
+            display: none;
+        }
+        .price{
             display: none;
         }
     }
@@ -74,10 +81,24 @@ Media Queries Styling
     }
 }
 @media only screen and (max-width: 415px) {
+    footer .main-background .icons-margin a img {
+        margin: 0px 8px;}
+    footer .main-background .call-us-number {
+        font-size: 19px;}
+    footer .news-letter-bg-color .news-letter {
+        font-size: 22px;}
+    .btn-send {font-size: 12px;}
+    footer .news-letter-bg-color .coupen-text {
+                font-size: 16px;}
+    #main { padding: 8px;}
+     #header #search-icon { margin-right: 10px;}
 }
+
 @media only screen and (max-width: 411px) {
 }
 @media only screen and (max-width: 398px) {
+    
+   
 }
 @media only screen and (max-width: 376px) {
 }
