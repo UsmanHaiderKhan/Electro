@@ -1,0 +1,20 @@
+/* ===============
+     Typography
+   =============== */
+
+$primary-color: #fed700;
+$secondary-color: #0b1121;
+$text-color: #334141;
+$light-color: #ffffff;
+
+@font-face {
+  font-family: open-sens-regular;
+  src: url('../../fonts/OpenSans-Regular.ttf');
+}  
+@font-face {
+  font-family: Helvatic;
+  src: url('../../fonts/HelveticaNeueLTPro-Lt.otf');
+}  
+
+$primary-font:open-sens-regular, sans-serif;
+$secondary-font: Helvatic, sans-serif;

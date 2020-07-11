@@ -1,0 +1,14 @@
+
+.btn-send{
+    width: 20%;
+    padding: 12px;
+    font-size: 18px;
+    color: $light-color;
+    text-transform: capitalize;
+    font-family: $primary-font;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+    background-color: $text-color;&:hover{
+        color: $light-color;
+    }
+}

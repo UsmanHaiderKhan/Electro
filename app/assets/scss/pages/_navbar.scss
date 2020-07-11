@@ -1,0 +1,19 @@
+/*================================= 
+      Nav Section Styling
+=================================*/
+.navbar-nav{
+	.nav-item{
+		margin: 0 20px;
+		.nav-link{
+			font-size: 18px;
+			color: $text-color;
+			font-family: $primary-font;
+			font-weight: 600;
+		}
+	}
+	
+}.navbar-text{
+	font-size: 18px;
+	color: $text-color;
+	font-family: $primary-font;
+}

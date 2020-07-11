@@ -1,0 +1,38 @@
+/*================================= 
+Home Section Styling
+=================================*/
+
+	// CSS Animation Slider
+	.owl-item.active {
+		.item {
+			.main-banner-text {
+				animation-name: moveInUp;
+				animation-duration: 2s;
+				animation-delay: 0.5s;
+				animation-timing-function: ease;
+				animation-fill-mode: both;
+				backface-visibility: hidden;
+			}
+			.btn-menu {
+				animation-name: moveInUp;
+				animation-duration: 0.5s;
+				animation-delay: 2s;
+				animation-timing-function: ease;
+				animation-fill-mode: both;
+				backface-visibility: hidden;
+			}
+		}
+	}
+
+	@keyframes moveInUp {
+		0% {
+			opacity: 0;
+			transform: translate(0%, 100%);
+		}
+
+		100% {
+			opacity: 1;
+			transform: translate(0%, 0%);
+		}
+	}
+

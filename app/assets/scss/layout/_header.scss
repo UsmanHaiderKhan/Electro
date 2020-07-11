@@ -1,0 +1,96 @@
+#header{
+    margin: 2.286em 0 1.857em;
+    .manage-flex{
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0%;
+    }
+    .menu-icon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    // .logo-lenght{
+    //     min-width: 300px;
+    //     max-width: 300px;
+    //     margin-left: 20px;
+    // }
+    .search-form{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;    
+       
+        .input-group{
+        .input-search-field{ 
+         
+            .search-field{
+                outline: 0;
+                width: 100%;
+                border-top-left-radius: 28px;
+                border-bottom-left-radius: 28px;
+                border: 3px solid $primary-color;
+                margin-right: -1px;
+                padding: 12px;
+                border-right: 0;
+                background:transparent;
+            }
+        }
+        .search-icon{
+            width: 26px;
+            height: 26px;
+            transform: rotate(-90deg);
+        }
+        .search-categories{
+            select{       
+            color: #6b6b6b;
+            width: 100%;
+            padding: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) no-repeat right .75rem center;
+            background-size: 8px 10px;
+            border: 3px solid $primary-color;
+            border-left: 0;
+            background: transparent;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+        }
+        }
+        .search-btn{
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            padding: 12.5px 20px;
+            background-color: $primary-color;
+        }
+    }
+    }
+    a{
+       .header_icons{
+        width: 28px;
+        height: 28px; 
+        margin:0 20px;  
+    }
+    .shoping-bag{
+        width: 28px;
+        height: 28px; 
+    }
+         b{
+             color: $text-color;
+         }
+         &:hover{
+            text-decoration: none;
+        }
+
+    }
+    .badge-position{
+        left: 13px;
+        bottom: -14px;
+        position: absolute;
+    }
+    #search-icon
+    {
+        display: none;
+    }
+}

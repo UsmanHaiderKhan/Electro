@@ -1,0 +1,97 @@
+
+
+footer{
+    .news-letter-bg-color{
+    background: $primary-color;
+    padding: .5em;
+    .news-letter{
+        font-size: 25px;
+        color: $text-color;
+        font-weight: 500;
+        font-family: $primary-font;
+
+    }
+    .coupen-text{
+        font-size: 18px;
+        color: $text-color;
+        font-weight: 500;
+        font-family: $primary-font;
+    }
+    .email-box{
+        width: 60%;
+        padding: 12px 15px; 
+        font-size: 16px;
+        margin-right: -1px;
+        border: none;
+        border-top-left-radius: 29px;
+        border-bottom-left-radius: 29px;
+        font-family: $primary-font; 
+        ::placeholder{
+            font-size: 16px;
+            font-family: $primary-font;
+        }
+    }
+}
+    .main-background{
+        padding: 100px 0;
+        background-color: #f8f8f8;
+        .call-us-text{
+            font-size: 16px;
+            color: $text-color;
+            font-family: $primary-font;
+        }
+        .call-us-number{
+            font-size: 24px;
+            color: $text-color;
+            font-weight: 600;
+            font-family: $primary-font;
+        }
+        .contact-info{
+            font-size: 16px;
+            color: $text-color;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: $primary-font;
+        }
+        .icons-margin a{
+            
+         img{
+            margin: 0 12px;
+            filter: grayscale(100%);
+        }
+        &:hover{
+            text-decoration: none;
+        }
+      }.heading-text{
+        font-size: 20px;
+        color: $text-color;
+        font-weight: 600;
+        font-family: $primary-font;
+    }
+      .footer-menu{
+        list-style: none;
+        margin-left: -40px;  
+        
+        li{
+          font-size: 16px;
+          color: $text-color;
+          margin-top: 10px;letter-spacing: .4px;
+          font-family: $primary-font;
+          a{
+              color: $text-color;&:hover{
+                color: $text-color;text-decoration: none;
+              }
+          }
+      }
+    }
+    }
+    .footer-bg-color{
+        background-color: #eaeaea;
+        padding: 10px;
+        .copy-right-text{
+            font-size: 17px;
+            color: $text-color;
+            font-family: $primary-color;
+        }
+    }
+}
